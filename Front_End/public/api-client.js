@@ -3,7 +3,7 @@
  * Handles communication with the FastAPI backend on port 8001.
  */
 
-const API_BASE_URL = 'http://127.0.0.1:8001/api/v1';
+const API_BASE_URL = 'https://time-weaver-fe.onrender.com/api/v1';
 
 class ApiClient {
     constructor(baseUrl = API_BASE_URL) {
